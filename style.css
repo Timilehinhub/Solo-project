@@ -1,0 +1,116 @@
+body {
+    display: block;
+    text-align: center;
+    border:3px solid whitesmoke;
+    border-radius:5px ;
+    color:#457b9d ;
+    text-shadow: 0 0 1px black;
+    background:linear-gradient(whitesmoke)
+   
+}
+
+.top {
+    background-size: cover;
+    background-image: url(images/lag-1.jpg); 
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+     font-size: exo 2, san-serif;
+}
+
+.phrase {
+    padding: 10px 20px ;
+    background: #a8dadc;
+    margin  : 80px 0 10px 0;
+}
+
+.phrase-2 {
+     padding: 10px 20px ;
+     background:#a8dadc ;
+     text-wrap:50px;
+}
+
+.list{
+ background:linear-gradient(whitesmoke,#457b9d) ;
+ color: #f1faee;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-around;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#theatre {
+    content: url(images/theatre.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+} 
+
+#theatre:hover {
+    content: url(images/theatre-1.webp);
+    width: 200px;
+    border-radius: 50%;
+
+}
+#market {
+    content: url(images/market-lag.jpg);
+    width: 200px;
+    border-radius: 50%;
+} 
+
+#market:hover {
+    content: url(images/market-1.webp);
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+
+}
+#street {
+    content: url(images/street.jpg);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+} 
+
+#street:hover {
+    content: url(images/move-1.webp);
+    width: 200px;
+    border-radius: 50%;
+}
+
+#me-img {
+    width: 200px;
+    height: 300px;
+}
+.bottom {
+    display: flex;
+    border-bottom: 8px solid #efb0c9 ;
+    margin:40px auto;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    background: #a2d2ff;
+    height: 300px;
+    text-shadow: 0 0 1px purple;
+}
